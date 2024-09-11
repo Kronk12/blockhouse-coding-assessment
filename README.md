@@ -25,8 +25,8 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository:
     ```bash
-    git clone https://your-repository-url.git
-    cd your-repository
+    git clone https://github.com/Kronk12/blockhouse-coding-assessment.git
+    cd blockhouse-coding-assessment/mysite
     ```
 
 2. Set up a virtual environment:
@@ -82,17 +82,17 @@ Before you begin, ensure you have the following installed:
 
 ### Frontend
 
-- **React**: JavaScript library for building the user interface.
-- **Lightweight Charts by TradingView**: For rendering financial charts like the Candlestick chart.
-- **Recharts**: For creating various types of charts such as Bar, Line, and Pie charts.
+- **React**: For building the user interface.
+- **Lightweight Charts by TradingView**: For rendering Candlestick chart.
+- **Chart.js**: For creating Bar, Line, and Pie charts.
 - **CSS Grid and Flexbox**: For responsive layout design.
-- **Tailwind CSS (optional)**: If used, to quickly style the application.
+- **Tailwind CSS**: Unused.
 
 ## Approach and Thought Process
 
 ### Backend
 
-The backend is built using Django, leveraging Django REST Framework to create RESTful APIs. The choice of Django is due to its robustness, ease of use, and built-in features that accelerate development. API endpoints are designed to be RESTful, ensuring they are intuitive and follow best practices.
+The backend is built using Django as specified by coding assignment. API endpoints are designed to be RESTful, ensuring they are intuitive and follow best practices.
 
 - **`urls.py`**: Defines the API routes.
 - **`views.py`**: Contains the logic for handling requests and returning responses.
@@ -100,7 +100,7 @@ The backend is built using Django, leveraging Django REST Framework to create RE
 
 ### Frontend
 
-The frontend is developed using React, which offers a component-based architecture that fits well with the dynamic nature of modern web applications. The charts are created using a combination of Lightweight Charts by TradingView and Recharts, providing a comprehensive and visually appealing way to display data.
+The frontend is developed using React and Next.js as specified by assignment. The charts are created using a combination of Lightweight Charts by TradingView and Chart.js.
 
 - **Responsive Design**: CSS Grid and Flexbox are used to ensure the application is responsive, adapting to various screen sizes.
 - **Font Customization**: The global font is set to "IBM Plex Mono" for a sleek and modern appearance across the application.
@@ -110,9 +110,9 @@ The frontend is developed using React, which offers a component-based architectu
 The backend provides the following API endpoints:
 
 - **`/api/candlestick-data/`**: Returns data for the Candlestick chart.
-- **`/api/bar-chart-data/`**: Returns data for the Bar chart (if applicable).
-- **`/api/line-chart-data/`**: Returns data for the Line chart (if applicable).
-- **`/api/pie-chart-data/`**: Returns data for the Pie chart (if applicable).
+- **`/api/bar-chart-data/`**: Returns data for the Bar chart.
+- **`/api/line-chart-data/`**: Returns data for the Line chart.
+- **`/api/pie-chart-data/`**: Returns data for the Pie chart.
 
 ### Testing the API
 
