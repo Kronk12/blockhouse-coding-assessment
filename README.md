@@ -60,6 +60,7 @@ Before you begin, ensure you have the following installed:
 2. Install frontend dependencies:
     ```bash
     npm install
+    npm install next
     ```
 
 3. Start the frontend development server:
