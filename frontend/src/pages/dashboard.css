@@ -1,0 +1,54 @@
+/* Dashboard.css */
+
+.dashboard {
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .charts-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    align-items: start;
+    justify-items: stretch;
+  }
+  
+  .chart-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chart-title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.25rem;
+    color: #666;
+  }
+  
+  /* Specific styling for the stacked charts */
+  .stacked-charts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+  }
+  
+  /* Make the candlestick chart larger and more prominent */
+  .candlestick-container {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 2;
+    display: flex;
+    flex-direction: column;
+  }
+  

@@ -1,0 +1,12 @@
+/* global.css */
+
+html, body {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px; /* Optional: Set a base font size */
+    line-height: 1.5; /* Optional: Set a base line height for better readability */
+    color: #333; /* Optional: Set a default text color */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Optional: Set a background color */
+  }
+  
